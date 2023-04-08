@@ -10,8 +10,8 @@ export class LitButton1 extends LitElement {
   //static styles = bootstrap;
   static styles = css`
     :host { color: blue; }
-    :host .btn-style-1 { color: green; }
-    :host .btn-style-2 { color: red; }
+    //:host .btn-style-1 { color: green; }
+    //:host .btn-style-2 { color: red; }
   `;
 
   constructor() {
