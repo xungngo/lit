@@ -30,5 +30,9 @@ export class LitButton1 extends LitElement {
     <a href="#" class="btn btn-warning btn-style-2" title="${this.link_2}">${this.link_2}</a>
     `;
   }
+  
+  createRenderRoot() {
+    return this;
+  }
 }
 customElements.define('lit-button1', LitButton1);
