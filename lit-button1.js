@@ -28,6 +28,8 @@ export class LitButton1 extends LitElement {
     <p>Hello, ${this.name}!</p>
     <a href="#" class="btn btn-primary btn-style-1" title="${this.link_1}">${this.link_1}</a>
     <a href="#" class="btn btn-warning btn-style-2" title="${this.link_2}">${this.link_2}</a>
+    <a href="#" class="btn btn-primary" title="btn-primary">btn-primary</a>
+    <a href="#" class="btn btn-warning" title="btn-warning">btn-warning</a>
     `;
   }
   
