@@ -33,6 +33,7 @@ export class LitButton1 extends LitElement {
     `;
   }
   
+  // Inherit root styling
   createRenderRoot() {
     return this;
   }
