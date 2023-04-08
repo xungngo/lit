@@ -2,7 +2,7 @@ import {LitElement, html, css} from 'https://cdn.jsdelivr.net/gh/lit/dist@2/all/
 //import bootstrap from 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css'; // doesn't allow to do it with css
 //import bootstrap from '/stylesheets/library/bootstrap.min.css'; // can't find
 
-export class InlineAsp extends LitElement {
+export class LitButton1 extends LitElement {
   static properties = {
     name: {}, link_1: {}, link_2: {}
   };
@@ -31,4 +31,4 @@ export class InlineAsp extends LitElement {
     `;
   }
 }
-customElements.define('inline-asp', InlineAsp);
+customElements.define('lit-button1', LitButton1);
