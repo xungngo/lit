@@ -1,14 +1,6 @@
 import {LitElement, html} from 'https://cdn.jsdelivr.net/gh/lit/dist@2/all/lit-all.min.js';
 
 class BootstrapStyles extends LitElement {
-  //static get styles() {
-    //return `
-      //:host {
-        //display: none;
-      //}
-    //`;
-  //}
-
   constructor() {
     super();
 
