@@ -1,9 +1,9 @@
 import {LitElement, html} from 'https://cdn.jsdelivr.net/gh/lit/dist@2/all/lit-all.min.js';
 
 class BootstrapStyles extends LitElement {
-  static get is() {
-    return 'bootstrap-styles';
-  }
+  //static get is() {
+    //return 'bootstrap-styles';
+  //}
 
   static get styles() {
     return `
@@ -41,4 +41,4 @@ class BootstrapStyles extends LitElement {
   }
 }
 
-customElements.define(BootstrapStyles.is, BootstrapStyles);
+customElements.define('bootstrap-styles', BootstrapStyles);
