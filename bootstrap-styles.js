@@ -1,4 +1,4 @@
-import { LitElement, html } from 'lit-element';
+import {LitElement, html} from 'https://cdn.jsdelivr.net/gh/lit/dist@2/all/lit-all.min.js';
 
 class BootstrapStyles extends LitElement {
   static get is() {
