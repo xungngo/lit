@@ -5,11 +5,11 @@ class DatePicker extends LitElement {
     super.connectedCallback();
     const link = document.createElement('link');
     link.setAttribute('rel', 'stylesheet');
-    link.setAttribute('href', 'css/datepicker.css');
+    link.setAttribute('href', 'https://cdn.jsdelivr.net/gh/xungngo/lit@master/datepicker/css/datepicker.css');
     document.head.appendChild(link);
 
     const script = document.createElement('script');
-    script.setAttribute('src', 'js/datepicker.min.js');
+    script.setAttribute('src', 'https://cdn.jsdelivr.net/gh/xungngo/lit@master/datepicker/js/datepicker.min.js');
     document.body.appendChild(script);
   }
 
