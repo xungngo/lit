@@ -18,4 +18,4 @@ class DatePicker extends LitElement {
   }
 }
 
-customElements.define('datepicker', DatePicker);
+customElements.define('date-picker', DatePicker);
